@@ -19,9 +19,9 @@ function printHTML (html) {
   console.log(html);
 }
 
- const requestOptions = {
-    host : "sytantris.github.io",
-    path : "/http-examples/step2.html"
-  }
+const requestOptions = {
+  host : "sytantris.github.io",
+  path : "/http-examples/step2.html"
+}
 
 getHTML(requestOptions, printHTML);

@@ -19,6 +19,6 @@ function getAndPrintHTML (options) {
  const requestOptions = {
     host : "sytantris.github.io",
     path : "/http-examples/step2.html"
-  };
+  }
 
 getAndPrintHTML(requestOptions);
